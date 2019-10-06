@@ -1,6 +1,6 @@
 import random
 
-def printSolution(board,n):
+def Solution(board,n):
     
     print("\n{}-Queen Solution:: \n".format(n))
     for i in range(0,n):
@@ -83,7 +83,7 @@ def NQueenHillClimbing(n):
         makeRandomBoard(board,n)
         findSolutionState(board,n)
         
-    printSolution(board,n)
+    Solution(board,n)
     
 try:
     n=int(input("Enter value of N: "))
